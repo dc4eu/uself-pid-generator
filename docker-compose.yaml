@@ -1,0 +1,43 @@
+version: "3.7"
+services:
+  uself-pid-generator:
+    image: registry.atosresearch.eu:18487/eviden/rd/uself/uself-pid-generator:v0.0.1
+    container_name: uself-pid-generator
+    environment:
+      - USELF_AGENT_URL=http://uself-agent
+    ports:
+      - 4200:80
+    networks:
+      - uself-net
+
+  uself-relying-party:
+    image: registry.atosresearch.eu:18487/eviden/rd/uself/uself-relying-party:v0.0.1
+    container_name: uself-relying-party
+    environment:
+      - USELF_AGENT_URL=http://uself-agent
+    ports:
+      - 5000:80
+    networks:
+      - uself-net
+  
+  uself-agent:
+    image: registry.atosresearch.eu:18487/eviden/rd/uself/uself-agent:v0.4.1
+    container_name: uself-agent
+    environment:
+      - uself_server=http://uself-agent
+      - uself_openid-idp-server=http://keycloak:8080
+      - uself_openid-client-id=uself-agent-client
+      - uself_openid-client-secret=password
+      - uself_openid-client-gui=http://uself-pid-generator:4200/present
+      - uself_openid-client-provider=uself
+      - uself_openid-client-token=http://keycloak:8080/realms/master/broker/uself/token
+    ports:
+      - 8888:8888
+   
+    networks:
+      - uself-net
+
+networks:
+  uself-net:
+    driver: bridge 
+  

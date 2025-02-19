@@ -1,0 +1,45 @@
+{
+    "general":{
+        "accept": "Accept",
+        "close": "Close"
+    },
+    
+    "home-component": {
+        "welcome": "Welcome",
+        "next-steps": "Next steps",
+        "question": "What do you want to do?",
+        "description": "Welcome to the PID generator for DC4EU project. This tool is designed to help you generate a PID for your data.",
+        "pid":"Obtain your PID"
+        
+    },
+    "issue-component":{
+        "title": "Obtain PID" 
+    },
+    "credential-selector-presentation-component":{
+        "select-credential": "Select a presentation",
+        "select-credential2": "Please, select a Verifiable presentation from the list to present it in your mobile:",
+        "select-credential3": "Select a type of presentation"
+    },
+    "credential-selector-issue-component":{
+        "select-credential": "Select a credential",
+        "select-credential2": "Please, select a credential from the list to obtain a Verifiable credential in your mobile:",
+        "select-credential3": "Select a presentation type"
+    },
+
+    "status-list":{
+        "filter": "Filter",
+        "id":"Id",
+        "name":"Name",
+        "subjectId":"SubjectId",
+        "type":"Type",
+        "creation-Date": "Creation Date",
+        "expiration-Date": "Expiration Date",
+        "index": "Index",
+        "status": "Status"
+    },
+    "qrcode-component":{
+        "title": "Scan the QR code",
+        "subtitle": "Please, scan the QR Code with your mobile and follow the instructions in the screen in your mobile:",
+        "pinCode": "PIN Code:"
+    }
+}

@@ -1,0 +1,26 @@
+<mat-card>
+   <mat-card-header class="mat-card-header">
+      <mat-card-title>{{ 'qrcode-component.title' | transloco }}</mat-card-title>
+      <mat-card-subtitle>{{ 'qrcode-component.subtitle' | transloco }}</mat-card-subtitle>
+   </mat-card-header>
+   <mat-card-content class="mat-card-content">
+   
+      <div mat-dialog-content class="center-content">
+         <!-- Conditionally show the pinCode field -->
+         <div *ngIf="data.preAuthorized !== null && data.preAuthorized==true">
+            <mat-form-field class="center-input">
+               <mat-label>{{ 'qrcode-component.pinCode' | transloco }} </mat-label>
+               <input class="center-input" readonly="true" matInput value="{{data.userPin}}">
+             </mat-form-field>
+         </div>
+         <qrcode [qrdata]="data.qrData"></qrcode>       
+         <a class="card" target="_blank" rel="noreferrer" href="{{data.qrData}}">Initiate from Mobile</a>       
+      </div>
+   </mat-card-content>
+   <mat-card-actions align="end">
+      <button mat-raised-button (click)="onClose()" color="warn">{{ 'general.close' | transloco }}</button>
+   </mat-card-actions>
+   <mat-card-footer>
+      <mat-progress-bar mode="indeterminate" color="warn"></mat-progress-bar>
+   </mat-card-footer>
+</mat-card>

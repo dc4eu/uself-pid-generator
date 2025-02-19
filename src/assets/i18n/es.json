@@ -1,0 +1,41 @@
+{
+    "general":{
+        "accept": "Aceptar",
+        "close": "Cancelar"
+    },
+    
+    "home-component": {
+        "welcome": "Bienvenido",
+        "next-steps": "Siguientes pasos",
+        "question1": "¿Que es lo que quieres hacer?",
+        "present-Verifiable-Presentation": "Presentar presentación verificable",
+        "issue-Verifiable-Credential": "Emitir una credencial verificable",
+        "status":"Estado",
+        "authentic-source":"Fuente auténtica",
+        "credential-list": "Lista de credenciales",
+        "authentic-Source-Interface": "Interfaz de autentificación"
+    },
+
+    "credential-selector-presentation-component":{
+        "select-credential": "Seleccione una presentación",
+        "select-credential2": "Por favor, selecciona una presentación Verificable de la lista para presentarla en tu móvil",
+        "select-credential3": "Seleccione un tipo de presentación"
+    },
+    "credential-selector-issue-component":{
+        "select-credential": "Seleccione una credencial",
+        "select-credential2": "Por favor, seleccione una credencial del listado para obtener una credencial Verificable en su móvil:",
+        "select-credential3": "Seleccione un tipo de presentación"
+    },
+
+    "status-list":{
+        "filter": "Filtro",
+        "id":"Id",
+        "name":"Nombre",
+        "subjectId":"SubjectId",
+        "type":"Tipo",
+        "creation-Date": "Fecha de Creación",
+        "expiration-Date": "Fecha de Expiracion",
+        "index": "Indice",
+        "status": "Estado"
+    }
+}
