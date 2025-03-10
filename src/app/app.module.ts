@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -7,7 +7,7 @@ import { HttpClientModule, provideHttpClient, withInterceptorsFromDi, HTTP_INTER
 import { QRCodeModule } from 'angularx-qrcode';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
-import { MatIconModule } from '@angular/material/icon';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
@@ -22,6 +22,8 @@ import { MatSelectModule } from '@angular/material/select';
 import { RouterModule } from '@angular/router';
 import { OAuthModule, OAuthModuleConfig } from 'angular-oauth2-oidc';
 import { TranslocoRootModule } from './transloco-root.module';
+import { HeaderComponent } from './components/layout/header/header.component';
+import { FooterComponent } from './components/layout/footer/footer.component';
 
 
 const authModuleConfig: OAuthModuleConfig = {
@@ -54,7 +56,9 @@ const authModuleConfig: OAuthModuleConfig = {
         FormsModule,
         OAuthModule.forRoot(authModuleConfig),
         HttpClientModule,
-        TranslocoRootModule
+        TranslocoRootModule,
+        HeaderComponent,
+        FooterComponent
     ],
     providers: [
         provideHttpClient(withInterceptorsFromDi())
@@ -62,6 +66,25 @@ const authModuleConfig: OAuthModuleConfig = {
     bootstrap: [AppComponent]
 })
 
-export class AppModule { }
+export class AppModule { 
+    constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer) {
+        matIconRegistry.addSvgIcon(
+          'check_circle',
+          domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/check_circle.svg')
+        );
+        matIconRegistry.addSvgIcon(
+            'verified',
+            domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/verified.svg')
+          );
+          matIconRegistry.addSvgIcon(
+            'check_circle_outline',
+            domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/check_circle_outline.svg')
+          );
+          matIconRegistry.addSvgIcon(
+            'highlight_off',
+            domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/highlight_off.svg')
+          );
+      }
+}
 
 

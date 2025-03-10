@@ -1,0 +1,108 @@
+<mat-card *ngIf="issuing">
+   <mat-card-header class="mat-card-header">
+      <div mat-card-avatar class="mat-header-image"></div>
+      <mat-card-title>{{ 'success-component.title' | transloco }}</mat-card-title>
+      <mat-card-subtitle>{{ 'success-component.subtitle' | transloco }}</mat-card-subtitle>
+      <mat-card-subtitle>{{ 'success-component.issue-credential' | transloco }}</mat-card-subtitle>
+   </mat-card-header>
+   <mat-card-content class="mat-card-content">
+         <div class="fix">
+            <mat-card>
+            <ngx-json-viewer [json]="credential" [depth]="3"></ngx-json-viewer>
+         </mat-card>
+         </div>
+         <!--textarea class="credential-textarea" readonly>{{ credentialString }}</textarea-->
+      <!-- </mat-expansion-panel> -->
+   </mat-card-content>
+   <mat-card-actions align="end">
+      <button mat-raised-button (click)="onClose()" color="primary">{{ 'general.close' | transloco }}</button>
+   </mat-card-actions>
+</mat-card>
+
+<mat-card *ngIf="verifying">
+   <mat-card-header class="mat-card-header">
+
+      <div mat-card-avatar class="mat-header-image" *ngIf="!error"></div>
+      <mat-card-title *ngIf="!error">{{ 'success-component.title-verification' | transloco }}</mat-card-title>
+      <mat-card-subtitle *ngIf="!error">result</mat-card-subtitle>
+      <mat-card-subtitle *ngIf="!error">{{ 'success-component.subtitle-verification' | transloco }}</mat-card-subtitle>
+      
+   
+      <div mat-card-avatar class="mat-header-error-image" *ngIf="error"></div>
+      <mat-card-title *ngIf="error">{{ 'success-component.error-title-verification' | transloco }}</mat-card-title>
+      <mat-card-subtitle *ngIf="error">{{result}}</mat-card-subtitle>
+      <mat-card-subtitle *ngIf="error">{{ 'success-component.error-subtitle-verification' | transloco }}</mat-card-subtitle>
+   </mat-card-header>
+   <mat-card-content class="mat-card-content">
+      
+      <div class="ng-report">
+         <ng-container *ngFor="let section of reportL0">
+            <mat-expansion-panel>
+               <mat-expansion-panel-header>
+                  <mat-panel-title> {{ 'success-component.'+section.id | transloco }}</mat-panel-title>
+               </mat-expansion-panel-header>
+               <table>
+                  <tbody>
+                     <tr>
+                        <td>{{ section.message }}</td>
+                        <td>
+                           <mat-icon class="success-icon" *ngIf="section.result">check_circle_outline</mat-icon>
+                           <mat-icon class="error-icon" *ngIf="!section.result">highlight_off</mat-icon>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </mat-expansion-panel>
+            
+            
+         </ng-container>
+
+         <ng-container *ngFor="let section of reportKeysL1">
+            <mat-expansion-panel>
+               <mat-expansion-panel-header>
+                  <mat-panel-title> {{ 'success-component.'+section | transloco }}</mat-panel-title>
+               </mat-expansion-panel-header>
+               <table>
+                  <tbody>
+                     <ng-container *ngFor="let validation of report[section]">
+                        <tr>
+                           <td>{{ validation.message }}</td>
+                           <td>
+                              <mat-icon class="success-icon" *ngIf="validation.result">check_circle_outline</mat-icon>
+                              <mat-icon class="error-icon" *ngIf="!validation.result">highlight_off</mat-icon>
+                           </td>
+                        </tr>
+                     </ng-container>
+                  </tbody>
+               </table>
+            </mat-expansion-panel>
+         </ng-container>
+
+         <ng-container *ngFor="let section of reportKeysL2">
+            <mat-expansion-panel>
+               <mat-expansion-panel-header>
+                  <mat-panel-title> {{ 'success-component.'+section | transloco }}</mat-panel-title>
+               </mat-expansion-panel-header>
+               <table>
+                  <tbody>
+                     <ng-container *ngFor="let validation of report[section][0]">
+                        <tr>
+                           <td>{{ validation.message }}</td>
+                           <td>
+                              <mat-icon class="success-icon" *ngIf="validation.result">check_circle_outline</mat-icon>
+                              <mat-icon class="error-icon" *ngIf="!validation.result">highlight_off</mat-icon>
+                           </td>
+                        </tr>
+                     </ng-container>
+                  </tbody>
+               </table>
+            </mat-expansion-panel>
+         </ng-container>
+      </div>
+
+
+   </mat-card-content>
+   <mat-card-actions align="end">
+      <button mat-raised-button (click)="onClose()" color="primary">{{ 'general.close' | transloco }}</button>
+   </mat-card-actions>
+</mat-card>

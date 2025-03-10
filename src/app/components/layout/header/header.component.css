@@ -1,0 +1,38 @@
+
+.header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+
+  .header #twitter-logo {
+    height: 40px;
+    margin: 0 8px;
+  }
+
+  .header #youtube-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .header #twitter-logo:hover,
+  .header #youtube-logo:hover {
+    opacity: 0.8;
+  }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .header {
+      font-size: 12px; /* Adjust font size for mobile devices */
+    }
+  }

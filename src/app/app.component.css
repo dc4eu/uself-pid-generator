@@ -1,0 +1,14 @@
+.home-card {
+    height: 100%;
+}
+
+.home-content-card {
+    height: 100%;
+    background-image: url('../assets/img/backGroundImg.png');
+    overflow-y: auto; 
+    padding: 16px;
+}
+
+.content {
+    height: 100%;
+  }

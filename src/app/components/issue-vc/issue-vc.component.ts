@@ -1,16 +1,15 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig, MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { AgentClientService } from 'src/app/services/agent-client/agent-client.service';
 
-import { ActivatedRoute } from '@angular/router';
-import { Router } from '@angular/router';
-import { TranslocoModule } from '@ngneat/transloco';
 
-import { LanguageSelectorComponent } from "../language-selector/language-selector.component";
-import { QRCodeComponent } from '../qrcode/qrcode.component';
+
+import { QRCodeComponent } from '../dialogs/qrcode/qrcode.component';
 import { environment } from 'src/environments/environment';
 import { v4 as uuidv4 } from 'uuid'; 
+import { SuccessComponent } from '../dialogs/success/success.component';
+import { SSEEvent } from 'src/app/models/sseEvent';
 
 
 @Component({
@@ -18,13 +17,17 @@ import { v4 as uuidv4 } from 'uuid';
   templateUrl: './issue-vc.component.html',
   styleUrls: ['./issue-vc.component.css'],
   standalone: true,
-  imports: [TranslocoModule, LanguageSelectorComponent]
+  imports: [MatDialogModule]
 })
 export class IssueVCComponent implements OnInit {
   private _snackBar = inject(MatSnackBar);
+  dialogQRRef: MatDialogRef<QRCodeComponent> | undefined;
 
   type: string = ""
-  constructor(private route: ActivatedRoute, public dialog: MatDialog, private agentService: AgentClientService, private snackBar: MatSnackBar, private router: Router) { }
+  constructor(
+    public dialog: MatDialog, 
+    private agentService: AgentClientService
+  ) { }
 
   ngOnInit() {
     this.getOffer();
@@ -43,8 +46,22 @@ export class IssueVCComponent implements OnInit {
 
   issueCredentialSuccess(_this: any, e: string) {
     _this._snackBar.open("Successful Authentication", "Thank you!")
-    _this.dialogRef.close();
-    _this.router.navigate(['/home']);
+    _this.dialogQRRef.close();
+    _this.openSuccessDialog(e);
+  }
+
+  openSuccessDialog(event: SSEEvent): void {
+    const dialogConfig = new MatDialogConfig();
+    // if (window.innerWidth <= 768) {
+    //   dialogConfig.width = '80%';
+    // } else {
+    //   dialogConfig.width = '30%';
+    // }
+    dialogConfig.autoFocus = false; // Disable autofocus
+    dialogConfig.hasBackdrop = true; // Enable backdrop
+    dialogConfig.data = { event: event};
+    dialogConfig.disableClose = true;
+    let dialogSuccessRef = this.dialog.open(SuccessComponent, dialogConfig);
   }
 
   openQRCodeDialog(qrData: string, nonce: string, preAuthorized: boolean = false): void {
@@ -59,6 +76,6 @@ export class IssueVCComponent implements OnInit {
     dialogConfig.panelClass = 'app-qrcode'; // Set a custom CSS class for the dialog
     dialogConfig.data = { qrData: qrData, nonce: nonce, preAuthorized: preAuthorized };
     dialogConfig.disableClose = true;
-    const dialogRef = this.dialog.open(QRCodeComponent, dialogConfig);
+    this.dialogQRRef = this.dialog.open(QRCodeComponent, dialogConfig);
   }
 }

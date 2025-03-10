@@ -1,0 +1,139 @@
+.verified-icon {
+  font-size: 75px;
+  /* Make the icon bigger */
+  color: green;
+  /* Change the color to green */
+  display: flex;
+  justify-content: center;
+  /* Center the icon horizontally */
+  align-items: center;
+  /* Center the icon vertically */
+  height: 100%;
+  width: 100%;
+}
+
+.mat-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* Adjust the height as needed */
+}
+.mat-expansion-panel {
+  width: 100%;
+  /* Add margin at the top */
+}
+.credential-textarea {
+  width: 100%;
+  height: 100px;
+  /* Adjust the height as needed */
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  resize: none;
+  
+}
+.json-viewer-container{
+  overflow-y: auto !important;
+  width: 100%;
+  height: 100px;
+  /* Adjust the height as needed */
+  margin-top: 10%;
+  padding: 10px;
+  font-size: 14px;
+  }
+
+.json-viewer{
+  overflow-y: auto !important;
+  width: 100%;
+  height: 100px;
+  
+}
+
+.mat-header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  
+  color: green;
+  padding: 10px; 
+}
+
+.mat-header-image::before {
+  content: 'verified';
+  /* Material Icon name */
+  font-family: 'Material Icons';
+}
+
+.mat-header-error-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  color: red;
+  padding: 10px; 
+}
+
+.mat-header-error-image::before {
+  content: 'highlight_off';
+  /* Material Icon name */
+  font-family: 'Material Icons';
+}
+
+.ng-report {
+  max-height: 200px;
+  /* Adjust the max height as needed */
+  overflow-y: auto;
+  /* Add vertical scroll */
+  width: 100%;
+  /* Ensure it takes the full width */
+  background-color: #f0f0f0;
+  /* Set the background color to gray */
+  padding: 10px;
+  /* Add padding if needed */
+  border-radius: 4px;
+  /* Optional: Add border radius for rounded corners */
+}
+
+.ng-report table {
+  width: 100%;
+  /* Set the table width to 100% */
+  background-color: #e0e0e0;
+  /* Set the background color to gray */
+  border-radius: 4px;
+  /* Optional: Add border radius for rounded corners */
+}
+
+.ng-report td {
+  padding: 10px;
+  /* Add padding to the table cells */
+}
+.ng-report td:nth-child(1) {
+  text-align: left;
+  width: 90%;
+  
+}
+
+.ng-report td:nth-child(2) {
+  text-align: right;
+  /* Align the second column to the left */
+}
+
+
+.success-icon {
+  color: green;
+  /* Set the color to green */
+}
+
+.error-icon {
+  color: red;
+  /* Set the color to green */
+}
+.fix{
+  overflow: auto !important;
+  height: 100%;
+  width: 100%;
+}
+

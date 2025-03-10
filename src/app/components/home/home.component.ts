@@ -4,7 +4,7 @@ import { TranslocoModule } from '@ngneat/transloco';
 import { MatIconRegistry } from '@angular/material/icon';
 import { DomSanitizer } from '@angular/platform-browser';
 import { Router, RouterLink } from '@angular/router';
-import { LanguageSelectorComponent } from "../language-selector/language-selector.component";
+
 
 
 @Component({
@@ -12,7 +12,7 @@ import { LanguageSelectorComponent } from "../language-selector/language-selecto
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   standalone: true,
-  imports: [RouterLink, CommonModule, LanguageSelectorComponent,TranslocoModule]
+  imports: [RouterLink, CommonModule, TranslocoModule]
 })
 export class HomeComponent {
   userLoginOn: boolean = false;

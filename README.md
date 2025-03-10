@@ -31,13 +31,9 @@ In order to build the image we will need first to execute
 docker buildx create --use
 docker build  -t registry.atosresearch.eu:18487/eviden/rd/uself/uself-pid-generator:test .
 docker buildx build --platform linux/amd64,linux/arm64 --push -t registry.atosresearch.eu:18487/eviden/rd/uself/uself-pid-generator:test .
-#OTPaas
-docker buildx build --platform linux/amd64,linux/arm64 --push -t registry.atosresearch.eu:18487/eviden/rd/uself/uself-pid-generator:v0.0.1 .
+#DC4EU
+docker buildx build --platform linux/amd64,linux/arm64 --push -t ossdc4eu.urv.cat:8081/eviden/rd/uself/uself-pid-generator:test .
 
-# DC4EU
-docker login -u atosDC4EU -p LaClaveIsKey2k25 http://dc4eu.cpd1.urv.cat:8081
-
-docker buildx build --platform linux/amd64,linux/arm64 --push -t http://dc4eu.cpd1.urv.cat:8081/repository/DC4EU-docker/eviden/rd/uself/uself-pid-generator:v0.0.1 .
 ```
 
 ## Download the image
