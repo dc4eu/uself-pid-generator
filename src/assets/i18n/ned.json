@@ -1,0 +1,68 @@
+{
+    "general":{
+        "accept": "Accept",
+        "close": "Close"
+    },
+    
+    "home-component": {
+        "welcome": "Welcome to the PID Generator",
+        "next-steps": "Next steps",
+        "question": "What do you want to do?",
+        "description": "Welcome to the PID generator for DC4EU project. This tool is designed to help you generate a PID for your data.",
+        "pid":"Obtain your PID"
+        
+    },
+    "issue-component":{
+        "title": "Obtain PID" 
+    },
+    "credential-selector-presentation-component":{
+        "select-credential": "Select a presentation",
+        "select-credential2": "Please, select a Verifiable presentation from the list to present it in your mobile:",
+        "select-credential3": "Select a type of presentation"
+    },
+    "credential-selector-issue-component":{
+        "select-credential": "Select a credential",
+        "select-credential2": "Please, select a credential from the list to obtain a Verifiable credential in your mobile:",
+        "select-credential3": "Select a presentation type"
+    },
+
+    "status-list":{
+        "filter": "Filter",
+        "id":"Id",
+        "name":"Name",
+        "subjectId":"SubjectId",
+        "type":"Type",
+        "creation-Date": "Creation Date",
+        "expiration-Date": "Expiration Date",
+        "index": "Index",
+        "status": "Status"
+    },
+    "qrcode-component":{
+        "title": "Scan the QR code",
+        "subtitle": "Please, scan the QR Code with your mobile and follow the instructions in the screen in your mobile:",
+        "pinCode": "PIN Code:"
+    },
+
+     
+    "success-component":{
+        "title": "Credential Issued",
+        "subtitle": "Issuing a Verifiable Credential Successfully",
+        "issue-credential": "The credential issued is as follows:",
+
+        "title-verification": "Credentials Verified",
+        "subtitle-verification": "The verification result is as follows:",
+        "error-title-verification": "Credentials Not Valid",
+        "error-subtitle-verification": "The verification result is as follows:",
+        
+        "validateVerifiablePresentation": "Validation of the Verifiable Presentation", 
+        "presentationDefinition": "Validation of the Verifiable Presentation", 
+        
+        "validateCredentialsInPresentation": "Validation of the Credentials within the Presentation",
+        "verifyVerifiablePresentationSignature": "Validation of the Verifiable Presentation Signature",
+        "vpSignature": "Validation of the Verifiable Presentation Signature",
+       
+        "verifyCredentialSignatures": "Validation of the Verifiable Credentials Signature",
+        "validatePresentationDefinition": "Validation of the Presentation Definition",
+        "validateIssuerRegistry": "Validation of EBSI Trust Model Chain"
+    }
+}

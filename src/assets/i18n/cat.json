@@ -1,42 +1,66 @@
 {
-    "general":{
+    "general": {
         "accept": "Acceptar",
         "close": "Tancar"
     },
-
+    
     "home-component": {
-        "welcome": "Benvingut",
-        "next-steps": "Següents passos",
-        "question1": "Què és el que vols fer?",
-        "present-Verifiable-Presentation": "Presentar una presentació verificable",
-        "issue-Verifiable-Credential": "Emet una credencial verificable",
-        "status":"Estat",
-        "credential-list": "Llista de credencials",
-        "authentic-source":"Font Autèntica",
-        "authentic-Source-Interface": "Interfície de font autèntica"
-
+        "welcome": "Benvingut al Generador de PID",
+        "next-steps": "Pròxims passos",
+        "question": "Què vols fer?",
+        "description": "Benvingut al generador de PID per al projecte DC4EU. Aquesta eina està dissenyada per ajudar-te a generar un PID per a les teves dades.",
+        "pid": "Obté el teu PID"
+    },
+    "issue-component": {
+        "title": "Obtenir PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Selecciona una presentació",
+        "select-credential2": "Si us plau, selecciona una presentació verificable de la llista per presentar-la al teu mòbil:",
+        "select-credential3": "Selecciona un tipus de presentació"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Selecciona una credencial",
+        "select-credential2": "Si us plau, selecciona una credencial de la llista per obtenir una credencial verificable al teu mòbil:",
+        "select-credential3": "Selecciona un tipus de presentació"
     },
 
-    "credential-selector-presentation-component":{
-        "select-credential": "Seleccioneu una presentació",
-        "select-credential2": "Si us plau, seleccioneu una presentació verificable de la llista per presentar-la al vostre mòbil:",
-        "select-credential3": "Seleccioneu un tipus de presentació"
-    },
-    "credential-selector-issue-component":{
-        "select-credential": "Seleccioneu una credencial",
-        "select-credential2": "Si us plau, seleccioneu una credencial de la llista per obtenir una credencial verificable al vostre mòbil:",
-        "select-credential3": "Seleccioneu un tipus de presentació"
-    },
-
-    "status-list":{
-        "filter": "Filtre",
-        "id":"Id",
-        "name":"Nom",
-        "subjectId":"SubjectId",
-        "type":"Tipus",
-        "creation-Date": "Data de creació",
-        "expiration-Date": "Data de caducitat",
+    "status-list": {
+        "filter": "Filtrar",
+        "id": "Id",
+        "name": "Nom",
+        "subjectId": "Id del Subjecte",
+        "type": "Tipus",
+        "creation-Date": "Data de Creació",
+        "expiration-Date": "Data de Caducitat",
         "index": "Índex",
         "status": "Estat"
+    },
+    "qrcode-component": {
+        "title": "Escaneja el codi QR",
+        "subtitle": "Si us plau, escaneja el codi QR amb el teu mòbil i segueix les instruccions a la pantalla del teu dispositiu:",
+        "pinCode": "Codi PIN:"
+    },
+
+    "success-component": {
+        "title": "Credencial Emesa",
+        "subtitle": "Emissió d'una Credencial Verificable amb Èxit",
+        "issue-credential": "La credencial emesa és la següent:",
+
+        "title-verification": "Credencials Verificades",
+        "subtitle-verification": "El resultat de la verificació és el següent:",
+        "error-title-verification": "Credencials No Vàlides",
+        "error-subtitle-verification": "El resultat de la verificació és el següent:",
+        
+        "validateVerifiablePresentation": "Validació de la Presentació Verificable", 
+        "presentationDefinition": "Validació de la Presentació Verificable", 
+        
+        "validateCredentialsInPresentation": "Validació de les Credencials dins de la Presentació",
+        "verifyVerifiablePresentationSignature": "Validació de la Signatura de la Presentació Verificable",
+        "vpSignature": "Validació de la Signatura de la Presentació Verificable",
+       
+        "verifyCredentialSignatures": "Validació de la Signatura de les Credencials Verificables",
+        "validatePresentationDefinition": "Validació de la Definició de la Presentació",
+        "validateIssuerRegistry": "Validació de la Cadena del Model de Confiança d'EBSI"
     }
 }

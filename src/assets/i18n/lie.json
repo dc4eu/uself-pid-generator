@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Priimti",
+        "close": "Uždaryti"
+    },
+    
+    "home-component": {
+        "welcome": "Sveiki atvykę į PID generatorių",
+        "next-steps": "Kiti žingsniai",
+        "question": "Ką norite daryti?",
+        "description": "Sveiki atvykę į PID generatorių DC4EU projektui. Šis įrankis skirtas padėti jums sugeneruoti PID jūsų duomenims.",
+        "pid": "Gaukite savo PID"
+    },
+    "issue-component": {
+        "title": "Gauti PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Pasirinkite pristatymą",
+        "select-credential2": "Prašome pasirinkti patikrinamą pristatymą iš sąrašo, kad jį pateiktumėte savo mobiliajame įrenginyje:",
+        "select-credential3": "Pasirinkite pristatymo tipą"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Pasirinkite įgaliojimą",
+        "select-credential2": "Prašome pasirinkti įgaliojimą iš sąrašo, kad gautumėte patikrinamą įgaliojimą savo mobiliajame įrenginyje:",
+        "select-credential3": "Pasirinkite pristatymo tipą"
+    },
+
+    "status-list": {
+        "filter": "Filtruoti",
+        "id": "Id",
+        "name": "Pavadinimas",
+        "subjectId": "Subjekto Id",
+        "type": "Tipas",
+        "creation-Date": "Sukūrimo data",
+        "expiration-Date": "Galiojimo pabaigos data",
+        "index": "Indeksas",
+        "status": "Būsena"
+    },
+    "qrcode-component": {
+        "title": "Nuskaitykite QR kodą",
+        "subtitle": "Prašome nuskaityti QR kodą savo mobiliuoju įrenginiu ir laikytis ekrane pateiktų instrukcijų:",
+        "pinCode": "PIN kodas:"
+    },
+
+    "success-component": {
+        "title": "Įgaliojimas išduotas",
+        "subtitle": "Patikrinamo įgaliojimo išdavimas sėkmingas",
+        "issue-credential": "Išduotas įgaliojimas yra toks:",
+
+        "title-verification": "Įgaliojimai patikrinti",
+        "subtitle-verification": "Patikrinimo rezultatas yra toks:",
+        "error-title-verification": "Įgaliojimai negalioja",
+        "error-subtitle-verification": "Patikrinimo rezultatas yra toks:",
+        
+        "validateVerifiablePresentation": "Patikrinamo pristatymo patvirtinimas", 
+        "presentationDefinition": "Patikrinamo pristatymo patvirtinimas", 
+        
+        "validateCredentialsInPresentation": "Įgaliojimų patvirtinimas pristatyme",
+        "verifyVerifiablePresentationSignature": "Patikrinamo pristatymo parašo patvirtinimas",
+        "vpSignature": "Patikrinamo pristatymo parašo patvirtinimas",
+       
+        "verifyCredentialSignatures": "Patikrinamų įgaliojimų parašo patvirtinimas",
+        "validatePresentationDefinition": "Pristatymo apibrėžimo patvirtinimas",
+        "validateIssuerRegistry": "EBSI pasitikėjimo modelio grandinės patvirtinimas"
+    }
+}

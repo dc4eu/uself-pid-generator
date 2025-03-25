@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Accetta",
+        "close": "Chiudi"
+    },
+    
+    "home-component": {
+        "welcome": "Benvenuto nel Generatore di PID",
+        "next-steps": "Prossimi passi",
+        "question": "Cosa vuoi fare?",
+        "description": "Benvenuto nel generatore di PID per il progetto DC4EU. Questo strumento è progettato per aiutarti a generare un PID per i tuoi dati.",
+        "pid": "Ottieni il tuo PID"
+    },
+    "issue-component": {
+        "title": "Ottieni PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Seleziona una presentazione",
+        "select-credential2": "Per favore, seleziona una presentazione verificabile dall'elenco per presentarla sul tuo dispositivo mobile:",
+        "select-credential3": "Seleziona un tipo di presentazione"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Seleziona una credenziale",
+        "select-credential2": "Per favore, seleziona una credenziale dall'elenco per ottenere una credenziale verificabile sul tuo dispositivo mobile:",
+        "select-credential3": "Seleziona un tipo di presentazione"
+    },
+
+    "status-list": {
+        "filter": "Filtra",
+        "id": "Id",
+        "name": "Nome",
+        "subjectId": "Id Soggetto",
+        "type": "Tipo",
+        "creation-Date": "Data di Creazione",
+        "expiration-Date": "Data di Scadenza",
+        "index": "Indice",
+        "status": "Stato"
+    },
+    "qrcode-component": {
+        "title": "Scansiona il codice QR",
+        "subtitle": "Per favore, scansiona il codice QR con il tuo dispositivo mobile e segui le istruzioni sullo schermo del tuo dispositivo:",
+        "pinCode": "Codice PIN:"
+    },
+
+    "success-component": {
+        "title": "Credenziale Emessa",
+        "subtitle": "Emissione di una Credenziale Verificabile completata con successo",
+        "issue-credential": "La credenziale emessa è la seguente:",
+
+        "title-verification": "Credenziali Verificate",
+        "subtitle-verification": "Il risultato della verifica è il seguente:",
+        "error-title-verification": "Credenziali Non Valide",
+        "error-subtitle-verification": "Il risultato della verifica è il seguente:",
+        
+        "validateVerifiablePresentation": "Validazione della Presentazione Verificabile", 
+        "presentationDefinition": "Validazione della Presentazione Verificabile", 
+        
+        "validateCredentialsInPresentation": "Validazione delle Credenziali all'interno della Presentazione",
+        "verifyVerifiablePresentationSignature": "Validazione della Firma della Presentazione Verificabile",
+        "vpSignature": "Validazione della Firma della Presentazione Verificabile",
+       
+        "verifyCredentialSignatures": "Validazione della Firma delle Credenziali Verificabili",
+        "validatePresentationDefinition": "Validazione della Definizione della Presentazione",
+        "validateIssuerRegistry": "Validazione della Catena del Modello di Fiducia EBSI"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Acceptă",
+        "close": "Închide"
+    },
+    
+    "home-component": {
+        "welcome": "Bine ați venit la Generatorul de PID",
+        "next-steps": "Pașii următori",
+        "question": "Ce doriți să faceți?",
+        "description": "Bine ați venit la generatorul de PID pentru proiectul DC4EU. Acest instrument este conceput pentru a vă ajuta să generați un PID pentru datele dumneavoastră.",
+        "pid": "Obțineți PID-ul dumneavoastră"
+    },
+    "issue-component": {
+        "title": "Obțineți PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Selectați o prezentare",
+        "select-credential2": "Vă rugăm să selectați o prezentare verificabilă din listă pentru a o prezenta pe dispozitivul dumneavoastră mobil:",
+        "select-credential3": "Selectați un tip de prezentare"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Selectați o acreditare",
+        "select-credential2": "Vă rugăm să selectați o acreditare din listă pentru a obține o acreditare verificabilă pe dispozitivul dumneavoastră mobil:",
+        "select-credential3": "Selectați un tip de prezentare"
+    },
+
+    "status-list": {
+        "filter": "Filtru",
+        "id": "Id",
+        "name": "Nume",
+        "subjectId": "Id Subiect",
+        "type": "Tip",
+        "creation-Date": "Data Creării",
+        "expiration-Date": "Data Expirării",
+        "index": "Index",
+        "status": "Stare"
+    },
+    "qrcode-component": {
+        "title": "Scanați codul QR",
+        "subtitle": "Vă rugăm să scanați codul QR cu dispozitivul dumneavoastră mobil și să urmați instrucțiunile de pe ecranul dispozitivului:",
+        "pinCode": "Cod PIN:"
+    },
+
+    "success-component": {
+        "title": "Acreditare Emisă",
+        "subtitle": "Emiterea unei acreditări verificabile a fost realizată cu succes",
+        "issue-credential": "Acreditarea emisă este următoarea:",
+
+        "title-verification": "Acreditări Verificate",
+        "subtitle-verification": "Rezultatul verificării este următorul:",
+        "error-title-verification": "Acreditări Nevalide",
+        "error-subtitle-verification": "Rezultatul verificării este următorul:",
+        
+        "validateVerifiablePresentation": "Validarea Prezentării Verificabile", 
+        "presentationDefinition": "Validarea Prezentării Verificabile", 
+        
+        "validateCredentialsInPresentation": "Validarea Acreditărilor din Prezentare",
+        "verifyVerifiablePresentationSignature": "Validarea Semnăturii Prezentării Verificabile",
+        "vpSignature": "Validarea Semnăturii Prezentării Verificabile",
+       
+        "verifyCredentialSignatures": "Validarea Semnăturii Acreditărilor Verificabile",
+        "validatePresentationDefinition": "Validarea Definiției Prezentării",
+        "validateIssuerRegistry": "Validarea Lanțului Modelului de Încredere EBSI"
+    }
+}

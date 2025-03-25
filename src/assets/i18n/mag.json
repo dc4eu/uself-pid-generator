@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Elfogad",
+        "close": "Bezár"
+    },
+    
+    "home-component": {
+        "welcome": "Üdvözöljük a PID Generátorban",
+        "next-steps": "Következő lépések",
+        "question": "Mit szeretne tenni?",
+        "description": "Üdvözöljük a PID generátorban a DC4EU projekt számára. Ez az eszköz segít Önnek PID-t generálni az adataihoz.",
+        "pid": "Szerezze meg a PID-jét"
+    },
+    "issue-component": {
+        "title": "PID megszerzése"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Válasszon egy bemutatót",
+        "select-credential2": "Kérjük, válasszon egy igazolható bemutatót a listából, hogy megjelenítse a mobilján:",
+        "select-credential3": "Válasszon egy bemutatótípust"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Válasszon egy hitelesítést",
+        "select-credential2": "Kérjük, válasszon egy hitelesítést a listából, hogy igazolható hitelesítést kapjon a mobilján:",
+        "select-credential3": "Válasszon egy bemutatótípust"
+    },
+
+    "status-list": {
+        "filter": "Szűrés",
+        "id": "Azonosító",
+        "name": "Név",
+        "subjectId": "Tárgy Azonosító",
+        "type": "Típus",
+        "creation-Date": "Létrehozás Dátuma",
+        "expiration-Date": "Lejárat Dátuma",
+        "index": "Index",
+        "status": "Állapot"
+    },
+    "qrcode-component": {
+        "title": "Olvassa be a QR-kódot",
+        "subtitle": "Kérjük, olvassa be a QR-kódot a mobiljával, és kövesse az utasításokat a készülék képernyőjén:",
+        "pinCode": "PIN-kód:"
+    },
+
+    "success-component": {
+        "title": "Hitelesítés Kiadva",
+        "subtitle": "Igazolható hitelesítés sikeresen kiadva",
+        "issue-credential": "A kiadott hitelesítés a következő:",
+
+        "title-verification": "Hitelesítések Ellenőrizve",
+        "subtitle-verification": "Az ellenőrzés eredménye a következő:",
+        "error-title-verification": "Érvénytelen Hitelesítések",
+        "error-subtitle-verification": "Az ellenőrzés eredménye a következő:",
+        
+        "validateVerifiablePresentation": "Az Igazolható Bemutató Ellenőrzése", 
+        "presentationDefinition": "Az Igazolható Bemutató Ellenőrzése", 
+        
+        "validateCredentialsInPresentation": "Hitelesítések Ellenőrzése a Bemutatóban",
+        "verifyVerifiablePresentationSignature": "Az Igazolható Bemutató Aláírásának Ellenőrzése",
+        "vpSignature": "Az Igazolható Bemutató Aláírásának Ellenőrzése",
+       
+        "verifyCredentialSignatures": "Az Igazolható Hitelesítések Aláírásának Ellenőrzése",
+        "validatePresentationDefinition": "A Bemutató Definíciójának Ellenőrzése",
+        "validateIssuerRegistry": "Az EBSI Megbízhatósági Modell Láncának Ellenőrzése"
+    }
+}

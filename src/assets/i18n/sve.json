@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Acceptera",
+        "close": "Stäng"
+    },
+    
+    "home-component": {
+        "welcome": "Välkommen till PID-generatorn",
+        "next-steps": "Nästa steg",
+        "question": "Vad vill du göra?",
+        "description": "Välkommen till PID-generatorn för DC4EU-projektet. Detta verktyg är utformat för att hjälpa dig att generera en PID för dina data.",
+        "pid": "Få din PID"
+    },
+    "issue-component": {
+        "title": "Få PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Välj en presentation",
+        "select-credential2": "Vänligen välj en verifierbar presentation från listan för att presentera den på din mobil:",
+        "select-credential3": "Välj en presentationstyp"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Välj en referens",
+        "select-credential2": "Vänligen välj en referens från listan för att få en verifierbar referens på din mobil:",
+        "select-credential3": "Välj en presentationstyp"
+    },
+
+    "status-list": {
+        "filter": "Filtrera",
+        "id": "Id",
+        "name": "Namn",
+        "subjectId": "SubjektId",
+        "type": "Typ",
+        "creation-Date": "Skapandedatum",
+        "expiration-Date": "Utgångsdatum",
+        "index": "Index",
+        "status": "Status"
+    },
+    "qrcode-component": {
+        "title": "Skanna QR-koden",
+        "subtitle": "Vänligen skanna QR-koden med din mobil och följ instruktionerna på skärmen på din enhet:",
+        "pinCode": "PIN-kod:"
+    },
+
+    "success-component": {
+        "title": "Referens Utfärdad",
+        "subtitle": "En verifierbar referens har utfärdats framgångsrikt",
+        "issue-credential": "Den utfärdade referensen är följande:",
+
+        "title-verification": "Referenser Verifierade",
+        "subtitle-verification": "Verifieringsresultatet är följande:",
+        "error-title-verification": "Ogiltiga Referenser",
+        "error-subtitle-verification": "Verifieringsresultatet är följande:",
+        
+        "validateVerifiablePresentation": "Validering av den verifierbara presentationen", 
+        "presentationDefinition": "Validering av den verifierbara presentationen", 
+        
+        "validateCredentialsInPresentation": "Validering av referenser i presentationen",
+        "verifyVerifiablePresentationSignature": "Validering av den verifierbara presentationens signatur",
+        "vpSignature": "Validering av den verifierbara presentationens signatur",
+       
+        "verifyCredentialSignatures": "Validering av signaturen för verifierbara referenser",
+        "validatePresentationDefinition": "Validering av presentationsdefinitionen",
+        "validateIssuerRegistry": "Validering av EBSI:s förtroendemodellkedja"
+    }
+}

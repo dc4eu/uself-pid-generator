@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Aksepter",
+        "close": "Lukk"
+    },
+    
+    "home-component": {
+        "welcome": "Velkommen til PID-generatoren",
+        "next-steps": "Neste steg",
+        "question": "Hva vil du gjøre?",
+        "description": "Velkommen til PID-generatoren for DC4EU-prosjektet. Dette verktøyet er designet for å hjelpe deg med å generere en PID for dataene dine.",
+        "pid": "Få din PID"
+    },
+    "issue-component": {
+        "title": "Få PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Velg en presentasjon",
+        "select-credential2": "Vennligst velg en verifiserbar presentasjon fra listen for å presentere den på mobilen din:",
+        "select-credential3": "Velg en presentasjonstype"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Velg en legitimasjon",
+        "select-credential2": "Vennligst velg en legitimasjon fra listen for å få en verifiserbar legitimasjon på mobilen din:",
+        "select-credential3": "Velg en presentasjonstype"
+    },
+
+    "status-list": {
+        "filter": "Filtrer",
+        "id": "Id",
+        "name": "Navn",
+        "subjectId": "SubjektId",
+        "type": "Type",
+        "creation-Date": "Opprettelsesdato",
+        "expiration-Date": "Utløpsdato",
+        "index": "Indeks",
+        "status": "Status"
+    },
+    "qrcode-component": {
+        "title": "Skann QR-koden",
+        "subtitle": "Vennligst skann QR-koden med mobilen din og følg instruksjonene på skjermen på enheten din:",
+        "pinCode": "PIN-kode:"
+    },
+
+    "success-component": {
+        "title": "Legitimasjon Utstedt",
+        "subtitle": "En verifiserbar legitimasjon ble utstedt med suksess",
+        "issue-credential": "Den utstedte legitimasjonen er som følger:",
+
+        "title-verification": "Legitimasjoner Verifisert",
+        "subtitle-verification": "Resultatet av verifiseringen er som følger:",
+        "error-title-verification": "Ugyldige Legitimasjoner",
+        "error-subtitle-verification": "Resultatet av verifiseringen er som følger:",
+        
+        "validateVerifiablePresentation": "Validering av den Verifiserbare Presentasjonen", 
+        "presentationDefinition": "Validering av den Verifiserbare Presentasjonen", 
+        
+        "validateCredentialsInPresentation": "Validering av Legitimasjoner i Presentasjonen",
+        "verifyVerifiablePresentationSignature": "Validering av den Verifiserbare Presentasjonens Signatur",
+        "vpSignature": "Validering av den Verifiserbare Presentasjonens Signatur",
+       
+        "verifyCredentialSignatures": "Validering av Signaturen til Verifiserbare Legitimasjoner",
+        "validatePresentationDefinition": "Validering av Presentasjonsdefinisjonen",
+        "validateIssuerRegistry": "Validering av EBSI Tillitsmodellkjede"
+    }
+}

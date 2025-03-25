@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Hyväksy",
+        "close": "Sulje"
+    },
+    
+    "home-component": {
+        "welcome": "Tervetuloa PID-generaattoriin",
+        "next-steps": "Seuraavat vaiheet",
+        "question": "Mitä haluat tehdä?",
+        "description": "Tervetuloa PID-generaattoriin DC4EU-projektia varten. Tämä työkalu on suunniteltu auttamaan sinua luomaan PID tietojasi varten.",
+        "pid": "Hanki PID"
+    },
+    "issue-component": {
+        "title": "Hanki PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Valitse esitys",
+        "select-credential2": "Valitse luettelosta todennettava esitys esittääksesi sen mobiililaitteellasi:",
+        "select-credential3": "Valitse esityksen tyyppi"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Valitse valtuutus",
+        "select-credential2": "Valitse luettelosta valtuutus saadaksesi todennettavan valtuutuksen mobiililaitteellasi:",
+        "select-credential3": "Valitse esityksen tyyppi"
+    },
+
+    "status-list": {
+        "filter": "Suodata",
+        "id": "Id",
+        "name": "Nimi",
+        "subjectId": "Kohteen Id",
+        "type": "Tyyppi",
+        "creation-Date": "Luontipäivämäärä",
+        "expiration-Date": "Vanhentumispäivämäärä",
+        "index": "Indeksi",
+        "status": "Tila"
+    },
+    "qrcode-component": {
+        "title": "Skannaa QR-koodi",
+        "subtitle": "Skannaa QR-koodi mobiililaitteellasi ja seuraa laitteen näytöllä olevia ohjeita:",
+        "pinCode": "PIN-koodi:"
+    },
+
+    "success-component": {
+        "title": "Valtuutus Myönnetty",
+        "subtitle": "Todennettavan valtuutuksen myöntäminen onnistui",
+        "issue-credential": "Myönnetty valtuutus on seuraava:",
+
+        "title-verification": "Valtuutukset Todennettu",
+        "subtitle-verification": "Todennuksen tulos on seuraava:",
+        "error-title-verification": "Valtuutukset Eivät Ole Voimassa",
+        "error-subtitle-verification": "Todennuksen tulos on seuraava:",
+        
+        "validateVerifiablePresentation": "Todennettavan Esityksen Vahvistus", 
+        "presentationDefinition": "Todennettavan Esityksen Vahvistus", 
+        
+        "validateCredentialsInPresentation": "Valtuutusten Vahvistus Esityksessä",
+        "verifyVerifiablePresentationSignature": "Todennettavan Esityksen Allekirjoituksen Vahvistus",
+        "vpSignature": "Todennettavan Esityksen Allekirjoituksen Vahvistus",
+       
+        "verifyCredentialSignatures": "Todennettavien Valtuutusten Allekirjoituksen Vahvistus",
+        "validatePresentationDefinition": "Esityksen Määritelmän Vahvistus",
+        "validateIssuerRegistry": "EBSI:n Luottamusmalliketjun Vahvistus"
+    }
+}

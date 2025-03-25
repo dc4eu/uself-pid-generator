@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Aceitar",
+        "close": "Fechar"
+    },
+    
+    "home-component": {
+        "welcome": "Bem-vindo ao Gerador de PID",
+        "next-steps": "Próximos passos",
+        "question": "O que você quer fazer?",
+        "description": "Bem-vindo ao gerador de PID para o projeto DC4EU. Esta ferramenta foi projetada para ajudá-lo a gerar um PID para os seus dados.",
+        "pid": "Obtenha seu PID"
+    },
+    "issue-component": {
+        "title": "Obter PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Selecione uma apresentação",
+        "select-credential2": "Por favor, selecione uma apresentação verificável da lista para apresentá-la no seu celular:",
+        "select-credential3": "Selecione um tipo de apresentação"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Selecione uma credencial",
+        "select-credential2": "Por favor, selecione uma credencial da lista para obter uma credencial verificável no seu celular:",
+        "select-credential3": "Selecione um tipo de apresentação"
+    },
+
+    "status-list": {
+        "filter": "Filtrar",
+        "id": "Id",
+        "name": "Nome",
+        "subjectId": "Id do Sujeito",
+        "type": "Tipo",
+        "creation-Date": "Data de Criação",
+        "expiration-Date": "Data de Expiração",
+        "index": "Índice",
+        "status": "Status"
+    },
+    "qrcode-component": {
+        "title": "Escaneie o código QR",
+        "subtitle": "Por favor, escaneie o código QR com seu celular e siga as instruções na tela do seu dispositivo:",
+        "pinCode": "Código PIN:"
+    },
+
+    "success-component": {
+        "title": "Credencial Emitida",
+        "subtitle": "Emissão de uma Credencial Verificável com Sucesso",
+        "issue-credential": "A credencial emitida é a seguinte:",
+
+        "title-verification": "Credenciais Verificadas",
+        "subtitle-verification": "O resultado da verificação é o seguinte:",
+        "error-title-verification": "Credenciais Não Válidas",
+        "error-subtitle-verification": "O resultado da verificação é o seguinte:",
+        
+        "validateVerifiablePresentation": "Validação da Apresentação Verificável", 
+        "presentationDefinition": "Validação da Apresentação Verificável", 
+        
+        "validateCredentialsInPresentation": "Validação das Credenciais dentro da Apresentação",
+        "verifyVerifiablePresentationSignature": "Validação da Assinatura da Apresentação Verificável",
+        "vpSignature": "Validação da Assinatura da Apresentação Verificável",
+       
+        "verifyCredentialSignatures": "Validação da Assinatura das Credenciais Verificáveis",
+        "validatePresentationDefinition": "Validação da Definição da Apresentação",
+        "validateIssuerRegistry": "Validação da Cadeia do Modelo de Confiança EBSI"
+    }
+}

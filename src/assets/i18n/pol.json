@@ -1,0 +1,66 @@
+{
+    "general": {
+        "accept": "Akceptuj",
+        "close": "Zamknij"
+    },
+    
+    "home-component": {
+        "welcome": "Witamy w Generatorze PID",
+        "next-steps": "Następne kroki",
+        "question": "Co chcesz zrobić?",
+        "description": "Witamy w generatorze PID dla projektu DC4EU. To narzędzie zostało zaprojektowane, aby pomóc Ci wygenerować PID dla Twoich danych.",
+        "pid": "Uzyskaj swój PID"
+    },
+    "issue-component": {
+        "title": "Uzyskaj PID"
+    },
+    "credential-selector-presentation-component": {
+        "select-credential": "Wybierz prezentację",
+        "select-credential2": "Proszę wybrać weryfikowalną prezentację z listy, aby zaprezentować ją na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
+    },
+    "credential-selector-issue-component": {
+        "select-credential": "Wybierz poświadczenie",
+        "select-credential2": "Proszę wybrać poświadczenie z listy, aby uzyskać weryfikowalne poświadczenie na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
+    },
+
+    "status-list": {
+        "filter": "Filtruj",
+        "id": "Id",
+        "name": "Nazwa",
+        "subjectId": "Identyfikator Podmiotu",
+        "type": "Typ",
+        "creation-Date": "Data Utworzenia",
+        "expiration-Date": "Data Wygaśnięcia",
+        "index": "Indeks",
+        "status": "Status"
+    },
+    "qrcode-component": {
+        "title": "Zeskanuj kod QR",
+        "subtitle": "Proszę zeskanować kod QR za pomocą swojego urządzenia mobilnego i postępować zgodnie z instrukcjami wyświetlanymi na ekranie urządzenia:",
+        "pinCode": "Kod PIN:"
+    },
+
+    "success-component": {
+        "title": "Poświadczenie Wydane",
+        "subtitle": "Weryfikowalne poświadczenie zostało pomyślnie wydane",
+        "issue-credential": "Wydane poświadczenie jest następujące:",
+
+        "title-verification": "Poświadczenia Zweryfikowane",
+        "subtitle-verification": "Wynik weryfikacji jest następujący:",
+        "error-title-verification": "Poświadczenia Nieważne",
+        "error-subtitle-verification": "Wynik weryfikacji jest następujący:",
+        
+        "validateVerifiablePresentation": "Walidacja Weryfikowalnej Prezentacji", 
+        "presentationDefinition": "Walidacja Weryfikowalnej Prezentacji", 
+        
+        "validateCredentialsInPresentation": "Walidacja Poświadczeń w Prezentacji",
+        "verifyVerifiablePresentationSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
+        "vpSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
+       
+        "verifyCredentialSignatures": "Walidacja Podpisu Weryfikowalnych Poświadczeń",
+        "validatePresentationDefinition": "Walidacja Definicji Prezentacji",
+        "validateIssuerRegistry": "Walidacja Łańcucha Modelu Zaufania EBSI"
+    }
+}
