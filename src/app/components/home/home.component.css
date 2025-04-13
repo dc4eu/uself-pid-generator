@@ -6,3 +6,10 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.centered-text {
+  text-align: center; /* Centers the text horizontally */
+  padding: 20px; /* Adds padding around the text */
+  display: block; /* Ensures each <p> is treated as a block-level element */
+  margin: 20px 0; /* Adds spacing between the lines */
+  line-height: 1.5;
+}

@@ -8,7 +8,9 @@
         "welcome": "Velkommen til PID-generatoren",
         "next-steps": "Neste steg",
         "question": "Hva vil du gjøre?",
-        "description": "Velkommen til PID-generatoren for DC4EU-prosjektet. Dette verktøyet er designet for å hjelpe deg med å generere en PID for dataene dine.",
+        "description": "Velkommen {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "PID-generatoren for DC4EU-prosjektet er designet for å hjelpe deg med å generere din PID.",
+        "description-3": "PID er EUDIW sitt harmoniserte identitetsmiddel som lar deg fullføre onboarding-prosessen innen utdanning og/eller profesjonelle kvalifikasjoner.",
         "pid": "Få din PID"
     },
     "issue-component": {

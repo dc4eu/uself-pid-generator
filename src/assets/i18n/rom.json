@@ -1,66 +1,68 @@
 {
     "general": {
-        "accept": "Acceptă",
-        "close": "Închide"
+        "accept": "Akceptuj",
+        "close": "Zamknij"
     },
     
     "home-component": {
-        "welcome": "Bine ați venit la Generatorul de PID",
-        "next-steps": "Pașii următori",
-        "question": "Ce doriți să faceți?",
-        "description": "Bine ați venit la generatorul de PID pentru proiectul DC4EU. Acest instrument este conceput pentru a vă ajuta să generați un PID pentru datele dumneavoastră.",
-        "pid": "Obțineți PID-ul dumneavoastră"
+        "welcome": "Witamy w Generatorze PID",
+        "next-steps": "Następne kroki",
+        "question": "Co chcesz zrobić?",
+        "description": "Witamy {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "Generator PID projektu DC4EU został zaprojektowany, aby pomóc Ci uzyskać Twój PID.",
+        "description-3": "PID to zharmonizowany środek tożsamości EUDIW, który pozwoli Ci ukończyć proces rejestracji w dziedzinie edukacji i/lub kwalifikacji zawodowych.",
+        "pid": "Uzyskaj swój PID"
     },
     "issue-component": {
-        "title": "Obțineți PID"
+        "title": "Uzyskaj PID"
     },
     "credential-selector-presentation-component": {
-        "select-credential": "Selectați o prezentare",
-        "select-credential2": "Vă rugăm să selectați o prezentare verificabilă din listă pentru a o prezenta pe dispozitivul dumneavoastră mobil:",
-        "select-credential3": "Selectați un tip de prezentare"
+        "select-credential": "Wybierz prezentację",
+        "select-credential2": "Proszę wybrać weryfikowalną prezentację z listy, aby zaprezentować ją na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
     "credential-selector-issue-component": {
-        "select-credential": "Selectați o acreditare",
-        "select-credential2": "Vă rugăm să selectați o acreditare din listă pentru a obține o acreditare verificabilă pe dispozitivul dumneavoastră mobil:",
-        "select-credential3": "Selectați un tip de prezentare"
+        "select-credential": "Wybierz poświadczenie",
+        "select-credential2": "Proszę wybrać poświadczenie z listy, aby uzyskać weryfikowalne poświadczenie na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
 
     "status-list": {
-        "filter": "Filtru",
+        "filter": "Filtruj",
         "id": "Id",
-        "name": "Nume",
-        "subjectId": "Id Subiect",
-        "type": "Tip",
-        "creation-Date": "Data Creării",
-        "expiration-Date": "Data Expirării",
-        "index": "Index",
-        "status": "Stare"
+        "name": "Nazwa",
+        "subjectId": "Identyfikator Podmiotu",
+        "type": "Typ",
+        "creation-Date": "Data Utworzenia",
+        "expiration-Date": "Data Wygaśnięcia",
+        "index": "Indeks",
+        "status": "Status"
     },
     "qrcode-component": {
-        "title": "Scanați codul QR",
-        "subtitle": "Vă rugăm să scanați codul QR cu dispozitivul dumneavoastră mobil și să urmați instrucțiunile de pe ecranul dispozitivului:",
-        "pinCode": "Cod PIN:"
+        "title": "Zeskanuj kod QR",
+        "subtitle": "Proszę zeskanować kod QR za pomocą swojego urządzenia mobilnego i postępować zgodnie z instrukcjami wyświetlanymi na ekranie urządzenia:",
+        "pinCode": "Kod PIN:"
     },
 
     "success-component": {
-        "title": "Acreditare Emisă",
-        "subtitle": "Emiterea unei acreditări verificabile a fost realizată cu succes",
-        "issue-credential": "Acreditarea emisă este următoarea:",
+        "title": "Poświadczenie Wydane",
+        "subtitle": "Weryfikowalne poświadczenie zostało pomyślnie wydane",
+        "issue-credential": "Wydane poświadczenie jest następujące:",
 
-        "title-verification": "Acreditări Verificate",
-        "subtitle-verification": "Rezultatul verificării este următorul:",
-        "error-title-verification": "Acreditări Nevalide",
-        "error-subtitle-verification": "Rezultatul verificării este următorul:",
+        "title-verification": "Poświadczenia Zweryfikowane",
+        "subtitle-verification": "Wynik weryfikacji jest następujący:",
+        "error-title-verification": "Nieprawidłowe Poświadczenia",
+        "error-subtitle-verification": "Wynik weryfikacji jest następujący:",
         
-        "validateVerifiablePresentation": "Validarea Prezentării Verificabile", 
-        "presentationDefinition": "Validarea Prezentării Verificabile", 
+        "validateVerifiablePresentation": "Walidacja Weryfikowalnej Prezentacji", 
+        "presentationDefinition": "Walidacja Weryfikowalnej Prezentacji", 
         
-        "validateCredentialsInPresentation": "Validarea Acreditărilor din Prezentare",
-        "verifyVerifiablePresentationSignature": "Validarea Semnăturii Prezentării Verificabile",
-        "vpSignature": "Validarea Semnăturii Prezentării Verificabile",
+        "validateCredentialsInPresentation": "Walidacja Poświadczeń w Prezentacji",
+        "verifyVerifiablePresentationSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
+        "vpSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
        
-        "verifyCredentialSignatures": "Validarea Semnăturii Acreditărilor Verificabile",
-        "validatePresentationDefinition": "Validarea Definiției Prezentării",
-        "validateIssuerRegistry": "Validarea Lanțului Modelului de Încredere EBSI"
+        "verifyCredentialSignatures": "Walidacja Podpisu Weryfikowalnych Poświadczeń",
+        "validatePresentationDefinition": "Walidacja Definicji Prezentacji",
+        "validateIssuerRegistry": "Walidacja Łańcucha Modelu Zaufania EBSI"
     }
 }

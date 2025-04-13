@@ -8,7 +8,9 @@
         "welcome": "Witamy w Generatorze PID",
         "next-steps": "Następne kroki",
         "question": "Co chcesz zrobić?",
-        "description": "Witamy w generatorze PID dla projektu DC4EU. To narzędzie zostało zaprojektowane, aby pomóc Ci wygenerować PID dla Twoich danych.",
+        "description": "Witamy {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "Generator PID projektu DC4EU został zaprojektowany, aby pomóc Ci uzyskać Twój PID.",
+        "description-3": "PID to zharmonizowany środek tożsamości EUDIW, który pozwoli Ci ukończyć proces rejestracji w dziedzinie edukacji i/lub kwalifikacji zawodowych.",
         "pid": "Uzyskaj swój PID"
     },
     "issue-component": {
@@ -49,7 +51,7 @@
 
         "title-verification": "Poświadczenia Zweryfikowane",
         "subtitle-verification": "Wynik weryfikacji jest następujący:",
-        "error-title-verification": "Poświadczenia Nieważne",
+        "error-title-verification": "Nieprawidłowe Poświadczenia",
         "error-subtitle-verification": "Wynik weryfikacji jest następujący:",
         
         "validateVerifiablePresentation": "Walidacja Weryfikowalnej Prezentacji", 

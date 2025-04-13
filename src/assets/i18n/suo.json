@@ -1,66 +1,68 @@
 {
     "general": {
-        "accept": "Hyväksy",
-        "close": "Sulje"
+        "accept": "Akceptuj",
+        "close": "Zamknij"
     },
     
     "home-component": {
-        "welcome": "Tervetuloa PID-generaattoriin",
-        "next-steps": "Seuraavat vaiheet",
-        "question": "Mitä haluat tehdä?",
-        "description": "Tervetuloa PID-generaattoriin DC4EU-projektia varten. Tämä työkalu on suunniteltu auttamaan sinua luomaan PID tietojasi varten.",
-        "pid": "Hanki PID"
+        "welcome": "Witamy w Generatorze PID",
+        "next-steps": "Następne kroki",
+        "question": "Co chcesz zrobić?",
+        "description": "Witamy {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "Generator PID projektu DC4EU został zaprojektowany, aby pomóc Ci uzyskać Twój PID.",
+        "description-3": "PID to zharmonizowany środek tożsamości EUDIW, który pozwoli Ci ukończyć proces rejestracji w dziedzinie edukacji i/lub kwalifikacji zawodowych.",
+        "pid": "Uzyskaj swój PID"
     },
     "issue-component": {
-        "title": "Hanki PID"
+        "title": "Uzyskaj PID"
     },
     "credential-selector-presentation-component": {
-        "select-credential": "Valitse esitys",
-        "select-credential2": "Valitse luettelosta todennettava esitys esittääksesi sen mobiililaitteellasi:",
-        "select-credential3": "Valitse esityksen tyyppi"
+        "select-credential": "Wybierz prezentację",
+        "select-credential2": "Proszę wybrać weryfikowalną prezentację z listy, aby zaprezentować ją na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
     "credential-selector-issue-component": {
-        "select-credential": "Valitse valtuutus",
-        "select-credential2": "Valitse luettelosta valtuutus saadaksesi todennettavan valtuutuksen mobiililaitteellasi:",
-        "select-credential3": "Valitse esityksen tyyppi"
+        "select-credential": "Wybierz poświadczenie",
+        "select-credential2": "Proszę wybrać poświadczenie z listy, aby uzyskać weryfikowalne poświadczenie na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
 
     "status-list": {
-        "filter": "Suodata",
+        "filter": "Filtruj",
         "id": "Id",
-        "name": "Nimi",
-        "subjectId": "Kohteen Id",
-        "type": "Tyyppi",
-        "creation-Date": "Luontipäivämäärä",
-        "expiration-Date": "Vanhentumispäivämäärä",
-        "index": "Indeksi",
-        "status": "Tila"
+        "name": "Nazwa",
+        "subjectId": "Identyfikator Podmiotu",
+        "type": "Typ",
+        "creation-Date": "Data Utworzenia",
+        "expiration-Date": "Data Wygaśnięcia",
+        "index": "Indeks",
+        "status": "Status"
     },
     "qrcode-component": {
-        "title": "Skannaa QR-koodi",
-        "subtitle": "Skannaa QR-koodi mobiililaitteellasi ja seuraa laitteen näytöllä olevia ohjeita:",
-        "pinCode": "PIN-koodi:"
+        "title": "Zeskanuj kod QR",
+        "subtitle": "Proszę zeskanować kod QR za pomocą swojego urządzenia mobilnego i postępować zgodnie z instrukcjami wyświetlanymi na ekranie urządzenia:",
+        "pinCode": "Kod PIN:"
     },
 
     "success-component": {
-        "title": "Valtuutus Myönnetty",
-        "subtitle": "Todennettavan valtuutuksen myöntäminen onnistui",
-        "issue-credential": "Myönnetty valtuutus on seuraava:",
+        "title": "Poświadczenie Wydane",
+        "subtitle": "Weryfikowalne poświadczenie zostało pomyślnie wydane",
+        "issue-credential": "Wydane poświadczenie jest następujące:",
 
-        "title-verification": "Valtuutukset Todennettu",
-        "subtitle-verification": "Todennuksen tulos on seuraava:",
-        "error-title-verification": "Valtuutukset Eivät Ole Voimassa",
-        "error-subtitle-verification": "Todennuksen tulos on seuraava:",
+        "title-verification": "Poświadczenia Zweryfikowane",
+        "subtitle-verification": "Wynik weryfikacji jest następujący:",
+        "error-title-verification": "Nieprawidłowe Poświadczenia",
+        "error-subtitle-verification": "Wynik weryfikacji jest następujący:",
         
-        "validateVerifiablePresentation": "Todennettavan Esityksen Vahvistus", 
-        "presentationDefinition": "Todennettavan Esityksen Vahvistus", 
+        "validateVerifiablePresentation": "Walidacja Weryfikowalnej Prezentacji", 
+        "presentationDefinition": "Walidacja Weryfikowalnej Prezentacji", 
         
-        "validateCredentialsInPresentation": "Valtuutusten Vahvistus Esityksessä",
-        "verifyVerifiablePresentationSignature": "Todennettavan Esityksen Allekirjoituksen Vahvistus",
-        "vpSignature": "Todennettavan Esityksen Allekirjoituksen Vahvistus",
+        "validateCredentialsInPresentation": "Walidacja Poświadczeń w Prezentacji",
+        "verifyVerifiablePresentationSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
+        "vpSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
        
-        "verifyCredentialSignatures": "Todennettavien Valtuutusten Allekirjoituksen Vahvistus",
-        "validatePresentationDefinition": "Esityksen Määritelmän Vahvistus",
-        "validateIssuerRegistry": "EBSI:n Luottamusmalliketjun Vahvistus"
+        "verifyCredentialSignatures": "Walidacja Podpisu Weryfikowalnych Poświadczeń",
+        "validatePresentationDefinition": "Walidacja Definicji Prezentacji",
+        "validateIssuerRegistry": "Walidacja Łańcucha Modelu Zaufania EBSI"
     }
 }

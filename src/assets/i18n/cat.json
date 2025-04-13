@@ -8,7 +8,9 @@
         "welcome": "Benvingut al Generador de PID",
         "next-steps": "Pròxims passos",
         "question": "Què vols fer?",
-        "description": "Benvingut al generador de PID per al projecte DC4EU. Aquesta eina està dissenyada per ajudar-te a generar un PID per a les teves dades.",
+        "description": "Benvingut {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "El generador de PID del projecte DC4EU està dissenyat per ajudar-te a obtenir el teu PID.",
+        "description-3": "El PID és el mitjà harmonitzat d'identitat de l'EUDIW que et permetrà completar el procés d'incorporació en l'àmbit de l'educació i/o les qualificacions professionals.",
         "pid": "Obté el teu PID"
     },
     "issue-component": {
@@ -44,7 +46,7 @@
 
     "success-component": {
         "title": "Credencial Emesa",
-        "subtitle": "Emissió d'una Credencial Verificable amb Èxit",
+        "subtitle": "L'emissió d'una Credencial Verificable s'ha completat amb èxit",
         "issue-credential": "La credencial emesa és la següent:",
 
         "title-verification": "Credencials Verificades",

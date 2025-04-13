@@ -8,7 +8,9 @@
         "welcome": "Willkommen beim PID-Generator",
         "next-steps": "Nächste Schritte",
         "question": "Was möchten Sie tun?",
-        "description": "Willkommen beim PID-Generator für das DC4EU-Projekt. Dieses Tool wurde entwickelt, um Ihnen bei der Erstellung einer PID für Ihre Daten zu helfen.",
+        "description": "Willkommen {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "Der PID-Generator des DC4EU-Projekts wurde entwickelt, um Ihnen zu helfen, Ihre PID zu erhalten.",
+        "description-3": "Die PID ist das harmonisierte Identitätsmittel der EUDIW, das es Ihnen ermöglicht, den Onboarding-Prozess im Bereich Bildung und/oder berufliche Qualifikationen abzuschließen.",
         "pid": "Erhalten Sie Ihre PID"
     },
     "issue-component": {
@@ -43,13 +45,13 @@
     },
 
     "success-component": {
-        "title": "Berechtigung ausgestellt",
+        "title": "Berechtigung Ausgestellt",
         "subtitle": "Eine überprüfbare Berechtigung wurde erfolgreich ausgestellt",
         "issue-credential": "Die ausgestellte Berechtigung lautet wie folgt:",
 
-        "title-verification": "Berechtigungen überprüft",
+        "title-verification": "Berechtigungen Überprüft",
         "subtitle-verification": "Das Ergebnis der Überprüfung lautet wie folgt:",
-        "error-title-verification": "Berechtigungen nicht gültig",
+        "error-title-verification": "Ungültige Berechtigungen",
         "error-subtitle-verification": "Das Ergebnis der Überprüfung lautet wie folgt:",
         
         "validateVerifiablePresentation": "Validierung der überprüfbaren Präsentation", 

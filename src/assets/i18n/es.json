@@ -8,7 +8,9 @@
         "welcome": "Bienvenido al Generador de PID",
         "next-steps": "Próximos pasos",
         "question": "¿Qué quieres hacer?",
-        "description": "Bienvenido al generador de PID para el proyecto DC4EU. Esta herramienta está diseñada para ayudarte a generar un PID para tus datos.",
+        "description": "Bienvenido {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "El generador de PID del proyecto DC4EU está diseñado para ayudarte a obtener tu PID.",
+        "description-3": "El PID es el medio armonizado de identidad de EUDIW que te permitirá completar el proceso de incorporación en el ámbito de la educación y/o las cualificaciones profesionales.",
         "pid": "Obtén tu PID"
     },
     "issue-component": {

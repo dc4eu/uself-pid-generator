@@ -8,7 +8,9 @@
         "welcome": "Üdvözöljük a PID Generátorban",
         "next-steps": "Következő lépések",
         "question": "Mit szeretne tenni?",
-        "description": "Üdvözöljük a PID generátorban a DC4EU projekt számára. Ez az eszköz segít Önnek PID-t generálni az adataihoz.",
+        "description": "Üdvözöljük, {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "A DC4EU projekt PID generátora segít Önnek megszerezni a PID-jét.",
+        "description-3": "A PID az EUDIW harmonizált azonosító eszköze, amely lehetővé teszi az oktatás és/vagy szakmai képesítések területén történő belépési folyamat befejezését.",
         "pid": "Szerezze meg a PID-jét"
     },
     "issue-component": {

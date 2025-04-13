@@ -1,66 +1,68 @@
 {
     "general": {
-        "accept": "Aceitar",
-        "close": "Fechar"
+        "accept": "Akceptuj",
+        "close": "Zamknij"
     },
     
     "home-component": {
-        "welcome": "Bem-vindo ao Gerador de PID",
-        "next-steps": "Próximos passos",
-        "question": "O que você quer fazer?",
-        "description": "Bem-vindo ao gerador de PID para o projeto DC4EU. Esta ferramenta foi projetada para ajudá-lo a gerar um PID para os seus dados.",
-        "pid": "Obtenha seu PID"
+        "welcome": "Witamy w Generatorze PID",
+        "next-steps": "Następne kroki",
+        "question": "Co chcesz zrobić?",
+        "description": "Witamy {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "Generator PID projektu DC4EU został zaprojektowany, aby pomóc Ci uzyskać Twój PID.",
+        "description-3": "PID to zharmonizowany środek tożsamości EUDIW, który pozwoli Ci ukończyć proces rejestracji w dziedzinie edukacji i/lub kwalifikacji zawodowych.",
+        "pid": "Uzyskaj swój PID"
     },
     "issue-component": {
-        "title": "Obter PID"
+        "title": "Uzyskaj PID"
     },
     "credential-selector-presentation-component": {
-        "select-credential": "Selecione uma apresentação",
-        "select-credential2": "Por favor, selecione uma apresentação verificável da lista para apresentá-la no seu celular:",
-        "select-credential3": "Selecione um tipo de apresentação"
+        "select-credential": "Wybierz prezentację",
+        "select-credential2": "Proszę wybrać weryfikowalną prezentację z listy, aby zaprezentować ją na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
     "credential-selector-issue-component": {
-        "select-credential": "Selecione uma credencial",
-        "select-credential2": "Por favor, selecione uma credencial da lista para obter uma credencial verificável no seu celular:",
-        "select-credential3": "Selecione um tipo de apresentação"
+        "select-credential": "Wybierz poświadczenie",
+        "select-credential2": "Proszę wybrać poświadczenie z listy, aby uzyskać weryfikowalne poświadczenie na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
 
     "status-list": {
-        "filter": "Filtrar",
+        "filter": "Filtruj",
         "id": "Id",
-        "name": "Nome",
-        "subjectId": "Id do Sujeito",
-        "type": "Tipo",
-        "creation-Date": "Data de Criação",
-        "expiration-Date": "Data de Expiração",
-        "index": "Índice",
+        "name": "Nazwa",
+        "subjectId": "Identyfikator Podmiotu",
+        "type": "Typ",
+        "creation-Date": "Data Utworzenia",
+        "expiration-Date": "Data Wygaśnięcia",
+        "index": "Indeks",
         "status": "Status"
     },
     "qrcode-component": {
-        "title": "Escaneie o código QR",
-        "subtitle": "Por favor, escaneie o código QR com seu celular e siga as instruções na tela do seu dispositivo:",
-        "pinCode": "Código PIN:"
+        "title": "Zeskanuj kod QR",
+        "subtitle": "Proszę zeskanować kod QR za pomocą swojego urządzenia mobilnego i postępować zgodnie z instrukcjami wyświetlanymi na ekranie urządzenia:",
+        "pinCode": "Kod PIN:"
     },
 
     "success-component": {
-        "title": "Credencial Emitida",
-        "subtitle": "Emissão de uma Credencial Verificável com Sucesso",
-        "issue-credential": "A credencial emitida é a seguinte:",
+        "title": "Poświadczenie Wydane",
+        "subtitle": "Weryfikowalne poświadczenie zostało pomyślnie wydane",
+        "issue-credential": "Wydane poświadczenie jest następujące:",
 
-        "title-verification": "Credenciais Verificadas",
-        "subtitle-verification": "O resultado da verificação é o seguinte:",
-        "error-title-verification": "Credenciais Não Válidas",
-        "error-subtitle-verification": "O resultado da verificação é o seguinte:",
+        "title-verification": "Poświadczenia Zweryfikowane",
+        "subtitle-verification": "Wynik weryfikacji jest następujący:",
+        "error-title-verification": "Nieprawidłowe Poświadczenia",
+        "error-subtitle-verification": "Wynik weryfikacji jest następujący:",
         
-        "validateVerifiablePresentation": "Validação da Apresentação Verificável", 
-        "presentationDefinition": "Validação da Apresentação Verificável", 
+        "validateVerifiablePresentation": "Walidacja Weryfikowalnej Prezentacji", 
+        "presentationDefinition": "Walidacja Weryfikowalnej Prezentacji", 
         
-        "validateCredentialsInPresentation": "Validação das Credenciais dentro da Apresentação",
-        "verifyVerifiablePresentationSignature": "Validação da Assinatura da Apresentação Verificável",
-        "vpSignature": "Validação da Assinatura da Apresentação Verificável",
+        "validateCredentialsInPresentation": "Walidacja Poświadczeń w Prezentacji",
+        "verifyVerifiablePresentationSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
+        "vpSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
        
-        "verifyCredentialSignatures": "Validação da Assinatura das Credenciais Verificáveis",
-        "validatePresentationDefinition": "Validação da Definição da Apresentação",
-        "validateIssuerRegistry": "Validação da Cadeia do Modelo de Confiança EBSI"
+        "verifyCredentialSignatures": "Walidacja Podpisu Weryfikowalnych Poświadczeń",
+        "validatePresentationDefinition": "Walidacja Definicji Prezentacji",
+        "validateIssuerRegistry": "Walidacja Łańcucha Modelu Zaufania EBSI"
     }
 }

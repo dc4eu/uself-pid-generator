@@ -1,68 +1,68 @@
 {
-    "general":{
-        "accept": "Accept",
-        "close": "Close"
+    "general": {
+        "accept": "Accepteren",
+        "close": "Sluiten"
     },
     
     "home-component": {
-        "welcome": "Welcome to the PID Generator",
-        "next-steps": "Next steps",
-        "question": "What do you want to do?",
-        "description": "Welcome to the PID generator for DC4EU project. This tool is designed to help you generate a PID for your data.",
-        "pid":"Obtain your PID"
-        
+        "welcome": "Welkom bij de PID-generator",
+        "next-steps": "Volgende stappen",
+        "question": "Wat wil je doen?",
+        "description": "Welkom {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "De PID-generator van het DC4EU-project is ontworpen om je te helpen je PID te verkrijgen.",
+        "description-3": "De PID is het geharmoniseerde identiteitsmiddel van de EUDIW waarmee je het onboardingproces kunt voltooien op het gebied van onderwijs en/of professionele kwalificaties.",
+        "pid": "Verkrijg je PID"
     },
-    "issue-component":{
-        "title": "Obtain PID" 
+    "issue-component": {
+        "title": "Verkrijg PID"
     },
-    "credential-selector-presentation-component":{
-        "select-credential": "Select a presentation",
-        "select-credential2": "Please, select a Verifiable presentation from the list to present it in your mobile:",
-        "select-credential3": "Select a type of presentation"
+    "credential-selector-presentation-component": {
+        "select-credential": "Selecteer een presentatie",
+        "select-credential2": "Selecteer een verifieerbare presentatie uit de lijst om deze op je mobiele apparaat te presenteren:",
+        "select-credential3": "Selecteer een presentatietype"
     },
-    "credential-selector-issue-component":{
-        "select-credential": "Select a credential",
-        "select-credential2": "Please, select a credential from the list to obtain a Verifiable credential in your mobile:",
-        "select-credential3": "Select a presentation type"
+    "credential-selector-issue-component": {
+        "select-credential": "Selecteer een referentie",
+        "select-credential2": "Selecteer een referentie uit de lijst om een verifieerbare referentie op je mobiele apparaat te verkrijgen:",
+        "select-credential3": "Selecteer een presentatietype"
     },
 
-    "status-list":{
-        "filter": "Filter",
-        "id":"Id",
-        "name":"Name",
-        "subjectId":"SubjectId",
-        "type":"Type",
-        "creation-Date": "Creation Date",
-        "expiration-Date": "Expiration Date",
+    "status-list": {
+        "filter": "Filteren",
+        "id": "Id",
+        "name": "Naam",
+        "subjectId": "Subject-Id",
+        "type": "Type",
+        "creation-Date": "Aanmaakdatum",
+        "expiration-Date": "Vervaldatum",
         "index": "Index",
         "status": "Status"
     },
-    "qrcode-component":{
-        "title": "Scan the QR code",
-        "subtitle": "Please, scan the QR Code with your mobile and follow the instructions in the screen in your mobile:",
-        "pinCode": "PIN Code:"
+    "qrcode-component": {
+        "title": "Scan de QR-code",
+        "subtitle": "Scan de QR-code met je mobiele apparaat en volg de instructies op het scherm van je apparaat:",
+        "pinCode": "PIN-code:"
     },
 
-     
-    "success-component":{
-        "title": "Credential Issued",
-        "subtitle": "Issuing a Verifiable Credential Successfully",
-        "issue-credential": "The credential issued is as follows:",
+    "success-component": {
+        "title": "Referentie Uitgegeven",
+        "subtitle": "Een verifieerbare referentie is succesvol uitgegeven",
+        "issue-credential": "De uitgegeven referentie is als volgt:",
 
-        "title-verification": "Credentials Verified",
-        "subtitle-verification": "The verification result is as follows:",
-        "error-title-verification": "Credentials Not Valid",
-        "error-subtitle-verification": "The verification result is as follows:",
+        "title-verification": "Referenties Geverifieerd",
+        "subtitle-verification": "Het resultaat van de verificatie is als volgt:",
+        "error-title-verification": "Ongeldige Referenties",
+        "error-subtitle-verification": "Het resultaat van de verificatie is als volgt:",
         
-        "validateVerifiablePresentation": "Validation of the Verifiable Presentation", 
-        "presentationDefinition": "Validation of the Verifiable Presentation", 
+        "validateVerifiablePresentation": "Validatie van de Verifieerbare Presentatie", 
+        "presentationDefinition": "Validatie van de Verifieerbare Presentatie", 
         
-        "validateCredentialsInPresentation": "Validation of the Credentials within the Presentation",
-        "verifyVerifiablePresentationSignature": "Validation of the Verifiable Presentation Signature",
-        "vpSignature": "Validation of the Verifiable Presentation Signature",
+        "validateCredentialsInPresentation": "Validatie van Referenties in de Presentatie",
+        "verifyVerifiablePresentationSignature": "Validatie van de Handtekening van de Verifieerbare Presentatie",
+        "vpSignature": "Validatie van de Handtekening van de Verifieerbare Presentatie",
        
-        "verifyCredentialSignatures": "Validation of the Verifiable Credentials Signature",
-        "validatePresentationDefinition": "Validation of the Presentation Definition",
-        "validateIssuerRegistry": "Validation of EBSI Trust Model Chain"
+        "verifyCredentialSignatures": "Validatie van de Handtekening van Verifieerbare Referenties",
+        "validatePresentationDefinition": "Validatie van de Presentatiedefinitie",
+        "validateIssuerRegistry": "Validatie van de Vertrouwensketen van het EBSI-model"
     }
 }

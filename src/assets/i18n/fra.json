@@ -8,11 +8,13 @@
         "welcome": "Bienvenue dans le Générateur de PID",
         "next-steps": "Prochaines étapes",
         "question": "Que voulez-vous faire ?",
-        "description": "Bienvenue dans le générateur de PID pour le projet DC4EU. Cet outil est conçu pour vous aider à générer un PID pour vos données.",
+        "description": "Bienvenue {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "Le générateur de PID du projet DC4EU est conçu pour vous aider à obtenir votre PID.",
+        "description-3": "Le PID est le moyen harmonisé d'identité de l'EUDIW qui vous permettra de compléter le processus d'intégration dans le domaine de l'éducation et/ou des qualifications professionnelles.",
         "pid": "Obtenez votre PID"
     },
     "issue-component": {
-        "title": "Obtenez un PID"
+        "title": "Obtenir un PID"
     },
     "credential-selector-presentation-component": {
         "select-credential": "Sélectionnez une présentation",
@@ -29,7 +31,7 @@
         "filter": "Filtrer",
         "id": "Id",
         "name": "Nom",
-        "subjectId": "Id Sujet",
+        "subjectId": "Id du Sujet",
         "type": "Type",
         "creation-Date": "Date de Création",
         "expiration-Date": "Date d'Expiration",
@@ -44,7 +46,7 @@
 
     "success-component": {
         "title": "Crédentiale Émise",
-        "subtitle": "Émission d'une Crédentiale Vérifiable réussie",
+        "subtitle": "Une crédentiale vérifiable a été émise avec succès",
         "issue-credential": "La crédentiale émise est la suivante :",
 
         "title-verification": "Crédentiales Vérifiées",

@@ -1,5 +1,5 @@
 
-<div class="content" role="main">
+<div class="content" role="main" *transloco="let t">
   <div class="card highlight-card card-small">
     <img width="125" alt="uSelf Logo" src="assets/img/logo_transparent.png" />
   </div>
@@ -7,8 +7,12 @@
   <h2>{{ 'home-component.next-steps' | transloco }}</h2>
   <p>{{ 'home-component.question' | transloco }}</p>
 
-  <div class="card-container">
-    <p>{{ 'home-component.description' | transloco }}</p>
+  <div class="card-container centered-text">
+    <p>{{ t('home-component.description', { given_name: given_name, family_name: family_name, document_number: document_number }) }}</p>
+    <!--p>{{ 'home-component.description' | transloco { given_name: given_name, family_name: family_name, document_number: document_number } }}</p-->
+   
+    <p>{{ 'home-component.description-2' | transloco }}</p>
+    <p>{{ 'home-component.description-3' | transloco }}</p>
   </div>
 
   <div class="card-container">

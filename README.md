@@ -33,7 +33,7 @@ docker build  -t registry.atosresearch.eu:18487/eviden/rd/uself/uself-pid-genera
 
 docker buildx build --platform linux/amd64,linux/arm64 --push -t registry.atosresearch.eu:18487/eviden/rd/uself/uself-pid-generator:v0.0.1 .
 #DC4EU
-docker buildx build --platform linux/amd64,linux/arm64 --push -t ossdc4eu.urv.cat:8081/eviden/rd/uself/uself-pid-generator:v0.0.1 .
+docker buildx build --platform linux/amd64,linux/arm64 --push -t ossdc4eu.urv.cat:8081/eviden/rd/uself/uself-pid-generator:v0.0.2 .
 
 ```
 

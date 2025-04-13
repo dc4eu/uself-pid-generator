@@ -1,66 +1,68 @@
 {
     "general": {
-        "accept": "Acceptera",
-        "close": "Stäng"
+        "accept": "Akceptuj",
+        "close": "Zamknij"
     },
     
     "home-component": {
-        "welcome": "Välkommen till PID-generatorn",
-        "next-steps": "Nästa steg",
-        "question": "Vad vill du göra?",
-        "description": "Välkommen till PID-generatorn för DC4EU-projektet. Detta verktyg är utformat för att hjälpa dig att generera en PID för dina data.",
-        "pid": "Få din PID"
+        "welcome": "Witamy w Generatorze PID",
+        "next-steps": "Następne kroki",
+        "question": "Co chcesz zrobić?",
+        "description": "Witamy {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "Generator PID projektu DC4EU został zaprojektowany, aby pomóc Ci uzyskać Twój PID.",
+        "description-3": "PID to zharmonizowany środek tożsamości EUDIW, który pozwoli Ci ukończyć proces rejestracji w dziedzinie edukacji i/lub kwalifikacji zawodowych.",
+        "pid": "Uzyskaj swój PID"
     },
     "issue-component": {
-        "title": "Få PID"
+        "title": "Uzyskaj PID"
     },
     "credential-selector-presentation-component": {
-        "select-credential": "Välj en presentation",
-        "select-credential2": "Vänligen välj en verifierbar presentation från listan för att presentera den på din mobil:",
-        "select-credential3": "Välj en presentationstyp"
+        "select-credential": "Wybierz prezentację",
+        "select-credential2": "Proszę wybrać weryfikowalną prezentację z listy, aby zaprezentować ją na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
     "credential-selector-issue-component": {
-        "select-credential": "Välj en referens",
-        "select-credential2": "Vänligen välj en referens från listan för att få en verifierbar referens på din mobil:",
-        "select-credential3": "Välj en presentationstyp"
+        "select-credential": "Wybierz poświadczenie",
+        "select-credential2": "Proszę wybrać poświadczenie z listy, aby uzyskać weryfikowalne poświadczenie na swoim urządzeniu mobilnym:",
+        "select-credential3": "Wybierz typ prezentacji"
     },
 
     "status-list": {
-        "filter": "Filtrera",
+        "filter": "Filtruj",
         "id": "Id",
-        "name": "Namn",
-        "subjectId": "SubjektId",
+        "name": "Nazwa",
+        "subjectId": "Identyfikator Podmiotu",
         "type": "Typ",
-        "creation-Date": "Skapandedatum",
-        "expiration-Date": "Utgångsdatum",
-        "index": "Index",
+        "creation-Date": "Data Utworzenia",
+        "expiration-Date": "Data Wygaśnięcia",
+        "index": "Indeks",
         "status": "Status"
     },
     "qrcode-component": {
-        "title": "Skanna QR-koden",
-        "subtitle": "Vänligen skanna QR-koden med din mobil och följ instruktionerna på skärmen på din enhet:",
-        "pinCode": "PIN-kod:"
+        "title": "Zeskanuj kod QR",
+        "subtitle": "Proszę zeskanować kod QR za pomocą swojego urządzenia mobilnego i postępować zgodnie z instrukcjami wyświetlanymi na ekranie urządzenia:",
+        "pinCode": "Kod PIN:"
     },
 
     "success-component": {
-        "title": "Referens Utfärdad",
-        "subtitle": "En verifierbar referens har utfärdats framgångsrikt",
-        "issue-credential": "Den utfärdade referensen är följande:",
+        "title": "Poświadczenie Wydane",
+        "subtitle": "Weryfikowalne poświadczenie zostało pomyślnie wydane",
+        "issue-credential": "Wydane poświadczenie jest następujące:",
 
-        "title-verification": "Referenser Verifierade",
-        "subtitle-verification": "Verifieringsresultatet är följande:",
-        "error-title-verification": "Ogiltiga Referenser",
-        "error-subtitle-verification": "Verifieringsresultatet är följande:",
+        "title-verification": "Poświadczenia Zweryfikowane",
+        "subtitle-verification": "Wynik weryfikacji jest następujący:",
+        "error-title-verification": "Nieprawidłowe Poświadczenia",
+        "error-subtitle-verification": "Wynik weryfikacji jest następujący:",
         
-        "validateVerifiablePresentation": "Validering av den verifierbara presentationen", 
-        "presentationDefinition": "Validering av den verifierbara presentationen", 
+        "validateVerifiablePresentation": "Walidacja Weryfikowalnej Prezentacji", 
+        "presentationDefinition": "Walidacja Weryfikowalnej Prezentacji", 
         
-        "validateCredentialsInPresentation": "Validering av referenser i presentationen",
-        "verifyVerifiablePresentationSignature": "Validering av den verifierbara presentationens signatur",
-        "vpSignature": "Validering av den verifierbara presentationens signatur",
+        "validateCredentialsInPresentation": "Walidacja Poświadczeń w Prezentacji",
+        "verifyVerifiablePresentationSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
+        "vpSignature": "Walidacja Podpisu Weryfikowalnej Prezentacji",
        
-        "verifyCredentialSignatures": "Validering av signaturen för verifierbara referenser",
-        "validatePresentationDefinition": "Validering av presentationsdefinitionen",
-        "validateIssuerRegistry": "Validering av EBSI:s förtroendemodellkedja"
+        "verifyCredentialSignatures": "Walidacja Podpisu Weryfikowalnych Poświadczeń",
+        "validatePresentationDefinition": "Walidacja Definicji Prezentacji",
+        "validateIssuerRegistry": "Walidacja Łańcucha Modelu Zaufania EBSI"
     }
 }

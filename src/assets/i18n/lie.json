@@ -8,7 +8,9 @@
         "welcome": "Sveiki atvykę į PID generatorių",
         "next-steps": "Kiti žingsniai",
         "question": "Ką norite daryti?",
-        "description": "Sveiki atvykę į PID generatorių DC4EU projektui. Šis įrankis skirtas padėti jums sugeneruoti PID jūsų duomenims.",
+        "description": "Sveiki atvykę, {{given_name}} {{family_name}} (#{{document_number}}).",
+        "description-2": "DC4EU projekto PID generatorius skirtas padėti jums gauti savo PID.",
+        "description-3": "PID yra EUDIW suderinta tapatybės priemonė, kuri leis jums užbaigti įtraukimo procesą švietimo ir/ar profesinių kvalifikacijų srityje.",
         "pid": "Gaukite savo PID"
     },
     "issue-component": {
