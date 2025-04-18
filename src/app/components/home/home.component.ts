@@ -6,6 +6,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { Router, RouterLink } from '@angular/router';
 import { OAuthService } from 'angular-oauth2-oidc';
 import { jwtDecode } from 'jwt-decode';
+import { filter } from 'rxjs';
 
 
 
@@ -35,12 +36,27 @@ export class HomeComponent implements OnInit {
     );
   }
   ngOnInit() {
-    let accessToken = this.oauthService.getAccessToken()
-    const decodedToken = this.decodeAccessToken(accessToken);
-    this.given_name = decodedToken.given_name;
-    this.family_name = decodedToken.family_name;
-    this.document_number = decodedToken.document_number;
+    // Load user information on initialization
+    this.loadUserInfo();
+
+    // Listen for authentication events
+    this.oauthService.events
+      .pipe(filter((e) => e.type === 'token_received' || e.type === 'token_refreshed'))
+      .subscribe(() => {
+        this.loadUserInfo(); // Refresh user information
+      });
   }
+
+  loadUserInfo() {
+    const accessToken = this.oauthService.getAccessToken();
+    const decodedToken = this.decodeAccessToken(accessToken);
+    if (decodedToken) {
+      this.given_name = decodedToken.given_name;
+      this.family_name = decodedToken.family_name;
+      this.document_number = decodedToken.document_number;
+    }
+  }
+
   decodeAccessToken(token: string): any {
     try {
       return jwtDecode(token);
