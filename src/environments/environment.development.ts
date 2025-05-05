@@ -5,7 +5,7 @@ export const environment = {
     USELF_AUTHENTIC_SOURCE_URL : "http://localhost:8888",
     USELF_KEYCLOAK_URL : "http://uself-keycloak.localhost",
 
-    PID: "eu.europa.ec.eudi.pid",
+    USELF_PID: "eu.europa.ec.eudi.pid",
 
     AUTHORIZATION_ENDPOINT: "/auth/authorize",
     INITIATE_OFFER_ENDPOINT: "/issuer/initiate-credential-offer",

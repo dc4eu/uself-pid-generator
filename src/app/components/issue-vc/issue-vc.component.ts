@@ -34,7 +34,7 @@ export class IssueVCComponent implements OnInit {
   }
 
   getOffer(): void {
-    let type = String(environment.PID)
+    let type = String(environment.USELF_PID)
     let nonce = uuidv4();
   
     this.agentService.getOffer(type,nonce)
