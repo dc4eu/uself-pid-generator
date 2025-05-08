@@ -16,9 +16,9 @@
 
 # uSelf Issuer GUI
 
-The PID Generator is a graphical user interface developed by Atos for the DC4EU project under Work Package 5 (Education and Professional Qualifications). It is designed to simulate obtaining a Person Identification Data (PID) in compliance with eIDAS 2.0, the EUDI Wallet ecosystem, and the W3C Verifiable Credentials standard.
+The PID Generator is a graphical user interface developed by **Atos** for the **DC4EU** project under Work Package 5 (Education and Professional Qualifications). It is designed to simulate obtaining a Person Identification Data (PID) in compliance with **eIDAS 2.0**, the **EUDI Wallet** ecosystem, and the W3C Verifiable Credentials standard.
 
-Furtehr information about this tool can be founded [here](https://github.com/dc4eu/educational-pilot/tree/main/toolkits/Pilot2/components/pid-generator)
+Further information about this tool can be founded [here](https://github.com/dc4eu/educational-pilot/tree/main/toolkits/Pilot2/components/pid-generator)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
 
@@ -32,7 +32,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artefacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
