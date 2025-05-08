@@ -1,7 +1,0 @@
-{
-    "license.author": "Copyright 2025 Atos Spain S.A. All rights reserved.",
-    "license.default": " Apache License Version 2.0",
-    "license.extension": ".txt",
-    "javascript.referencesCodeLens.enabled": true,
-    "typescript.implementationsCodeLens.enabled": true
-}
