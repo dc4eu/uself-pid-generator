@@ -14,7 +14,7 @@
  limitations under the License.
 -->
 
-# uSelf Issuer GUI
+# uSelf PID Generator
 
 The PID Generator is a graphical user interface developed by **Atos** for the **DC4EU** project under Work Package 5 (Education and Professional Qualifications). It is designed to simulate obtaining a Person Identification Data (PID) in compliance with **eIDAS 2.0**, the **EUDI Wallet** ecosystem, and the W3C Verifiable Credentials standard.
 
